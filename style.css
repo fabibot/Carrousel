@@ -1,0 +1,87 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.main{
+    margin: 65px 5%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow > div{
+    background: url('./right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.arrow > div.leftArrow{
+    transform: rotate(0.5turn);
+}
+
+.arrow > div:hover{
+    opacity: 1;
+}
+
+.allImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageCenter, .imageLeft, .imageRight, .imageHide{
+    margin: 3px;
+    transition: all 1s ease-out;
+    border-radius: 20px;
+}
+
+.imageCenter{
+    width: 65%;
+    height: 60%;
+}
+
+.imageLeft{
+    width: 12%;
+    height: 14%;
+    opacity: 0.5;
+    position: relative;
+    left: -2%;
+}
+.imageRight{
+    width: 12%;
+    height: 14%;
+    opacity: 0.5;
+    position: relative;
+    left: 2%;
+}
+
+.imageHide{
+    visibility: hidden;
+}
+
+.un{
+    background-color: blue;
+}
+
+.deux{
+    background-color: violet;
+}
+.trois{
+    background-color: yellow;
+}
+.quatre{
+    background-color: #31d931;
+}
